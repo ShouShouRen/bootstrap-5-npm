@@ -1,13 +1,37 @@
 @import "custom";
 
 .custom-element {
+  // tint-color淡化
   color: tint-color($primary, 10%);
 }
 
 .custom-element-2 {
-  color: shade-color($danger, 100%);
+  // shade-color加深
+  color: shade-color($danger, 70%);
 }
 
 .test-title {
+  // shift-color也是加深
   color: shift-color($primary, -30%);
+}
+
+.test-title-2 {
+  // color-contrast對比色
+  color: color-contrast(#fff);
+  background-color: #fff;
+}
+
+.custom-element {
+  @include color-scheme(dark) {
+    // Insert dark mode styles here
+    color: #fff;
+  }
+
+  @include color-scheme(custom-named-scheme) {
+    // Insert custom color scheme styles here
+  }
+}
+
+.desc {
+  color: var(--bs-blue);
 }
