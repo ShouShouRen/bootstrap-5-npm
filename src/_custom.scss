@@ -39,3 +39,5 @@
 // $theme-colors: map-remove($theme-colors, "info", "light", "dark" );
 
 @import "../node_modules/bootstrap/scss/buttons";
+
+@import "../node_modules/bootstrap/scss/root";
