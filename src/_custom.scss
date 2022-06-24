@@ -1,6 +1,33 @@
+// function 1
 // Custom.scss
 // Option A: Include all of Bootstrap
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+// $btn-font-size: 30px;
+
+// @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
+// function 2
+
+@import "../node_modules/bootstrap/scss/functions";
+
+$btn-font-size: 30px;
+
+
+@import "../node_modules/bootstrap/scss/variables";
+
+@import "../node_modules/bootstrap/scss/mixins";
+
+$theme-colors: (
+    "primary" : #e3e3e3,
+    "secondary" : $secondary,
+    "success" : $success,
+    "info" : $info,
+    "warning" : $warning,
+    "danger" : $danger,
+    "light" : $light,
+    "dark" : $dark
+);
+
+@import "../node_modules/bootstrap/scss/buttons";
