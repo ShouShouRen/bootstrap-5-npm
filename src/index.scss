@@ -1,2 +1,13 @@
-@use "custom";
-// @use "~bootstrap/scss/bootstrap";
+@import "custom";
+
+.custom-element {
+  color: tint-color($primary, 10%);
+}
+
+.custom-element-2 {
+  color: shade-color($danger, 100%);
+}
+
+.test-title {
+  color: shift-color($primary, -30%);
+}

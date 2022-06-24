@@ -12,15 +12,14 @@
 
 @import "../node_modules/bootstrap/scss/functions";
 
-$btn-font-size: 30px;
-
+// $btn-font-size: 30px;
 
 @import "../node_modules/bootstrap/scss/variables";
 
 @import "../node_modules/bootstrap/scss/mixins";
 
 // $theme-colors: (
-//     "primary" : #e3e3e3,
+//     "primary" : $primary,
 //     "secondary" : $secondary,
 //     "success" : $success,
 //     "info" : $info,
@@ -31,12 +30,12 @@ $btn-font-size: 30px;
 // );
 
 // 新增
-$custom-colors: (
-    "xxx-color":#900,
-);
-$theme-colors: map-merge($theme-colors, $custom-colors );
+// $custom-colors: (
+//     "xxx-color":#900,
+// );
+// $theme-colors: map-merge($theme-colors, $custom-colors );
 
 // 移除
-$theme-colors: map-remove($theme-colors, "info", "light", "dark" );
+// $theme-colors: map-remove($theme-colors, "info", "light", "dark" );
 
 @import "../node_modules/bootstrap/scss/buttons";
