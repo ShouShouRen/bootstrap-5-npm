@@ -35,3 +35,24 @@
 // .desc {
 //   color: var(--bs-blue);
 // }
+
+.box{
+  height: 100px;
+  background-color: burlywood;
+}
+.box2{
+  height: 100px;
+  background-color: #098;
+}
+.box3{
+  height: 100px;
+  background-color: #fa0;
+}
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 900px,
+  xl: 1140px,
+  xxl: 1320px
+);
