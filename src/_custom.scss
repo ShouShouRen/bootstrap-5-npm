@@ -4,19 +4,19 @@
 
 // $btn-font-size: 30px;
 
-// @import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
 
 // function 2
 
-@import "../node_modules/bootstrap/scss/functions";
+// @import "../node_modules/bootstrap/scss/functions";
 
 // $btn-font-size: 30px;
 
-@import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/variables";
 
-@import "../node_modules/bootstrap/scss/mixins";
+// @import "../node_modules/bootstrap/scss/mixins";
 
 // $theme-colors: (
 //     "primary" : $primary,
@@ -38,6 +38,6 @@
 // 移除
 // $theme-colors: map-remove($theme-colors, "info", "light", "dark" );
 
-@import "../node_modules/bootstrap/scss/buttons";
+// @import "../node_modules/bootstrap/scss/buttons";
 
 @import "../node_modules/bootstrap/scss/root";
