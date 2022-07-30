@@ -2,14 +2,15 @@ import './index.scss'
 import 'bootstrap/js/dist/collapse'
 import Alert from 'bootstrap/js/dist/alert'
 import Button from 'bootstrap/js/dist/button';
+import  Carousel  from 'bootstrap/js/dist/carousel';
 
 function alertHandler() {
     const alertCustomDiv = document.getElementById('alertCustom')
-    document.getElementById('alertCustomBtn').addEventListener('click', function() {
+    document.getElementById('alertCustomBtn').addEventListener('click', function () {
         const alertCustom = new Alert(alertCustomDiv)
         alertCustom.close();
     })
-    alertCustomDiv.addEventListener('closed.bs.alert', function() {
+    alertCustomDiv.addEventListener('closed.bs.alert', function () {
         console.log('closed...')
     })
     const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
@@ -30,6 +31,11 @@ function alertHandler() {
     }
 }
 
-function
-
+function buttonHandler() {
+    const button = document.getElementById('myButton')
+    const bsButton = new Button(button)
+    setTimeout(() => {
+        bsButton.toggle()
+    }, 2000)
+}
 alertHandler()
