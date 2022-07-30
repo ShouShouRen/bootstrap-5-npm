@@ -515,6 +515,49 @@
   <a href="#" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Primary link</a>
   <a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Link</a>
 
+
+  <h3 class="mt-4 mb-4">區塊按鈕</h3>
+
+  <div class="d-grid gap-2">
+    <button class="btn btn-primary" type="button">Button</button>
+    <button class="btn btn-primary" type="button">Button</button>
+  </div>
+
+  <h3 class="mt-4 mb-4">區塊按鈕 + RWD</h3>
+
+  <div class="d-grid gap-2 d-md-block">
+    <button class="btn btn-primary" type="button">Button</button>
+    <button class="btn btn-primary" type="button">Button</button>
+  </div>
+
+  <h3 class="mt-4 mb-4">區塊按鈕 + Flex</h3>
+
+  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <button class="btn btn-primary me-md-2" type="button">Button</button>
+    <button class="btn btn-primary" type="button">Button</button>
+  </div>
+
+  <h3 class="mt-4 mb-4">按鈕active處理</h3>
+
+  <button type="button" class="btn btn-primary" data-bs-toggle="button" autocomplete="off">Toggle button</button>
+  <button type="button" class="btn btn-primary active" data-bs-toggle="button" autocomplete="off"
+    aria-pressed="true">Active toggle button</button>
+  <button type="button" class="btn btn-primary" disabled data-bs-toggle="button" autocomplete="off">Disabled toggle
+    button</button>
+
+  <br>
+  <br>
+
+  <a href="#" class="btn btn-primary" role="button" data-bs-toggle="button">Toggle link</a>
+  <a href="#" class="btn btn-primary active" role="button" data-bs-toggle="button" aria-pressed="true">Active toggle
+    link</a>
+  <a href="#" class="btn btn-primary disabled" tabindex="-1" aria-disabled="true" role="button"
+    data-bs-toggle="button">Disabled toggle link</a>
+
+  <h3 class="mt-4 mb-4">透過JS控制</h3>
+
+  <button type="button" class="btn btn-primary" id="myButton">Custom button</button>
+
 </body>
 
 </html>

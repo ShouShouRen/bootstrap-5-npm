@@ -1,6 +1,7 @@
 import './index.scss'
 import 'bootstrap/js/dist/collapse'
 import Alert from 'bootstrap/js/dist/alert'
+import Button from 'bootstrap/js/dist/button';
 
 function alertHandler() {
     const alertCustomDiv = document.getElementById('alertCustom')
@@ -28,5 +29,7 @@ function alertHandler() {
         })
     }
 }
+
+function
 
 alertHandler()
